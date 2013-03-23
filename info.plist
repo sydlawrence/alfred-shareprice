@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>it.wemakeawesome.share</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>Syd Lawrence</string>
+	<key>description</key>
+	<string>Show the share price of a stock</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Share price</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>$</string>
+				<key>runningsubtext</key>
+				<string>speaking to the guys in suits, please wait</string>
+				<key>script</key>
+				<string>php -f search.php -- "{query}"</string>
+				<key>subtext</key>
+				<string>$one billion</string>
+				<key>title</key>
+				<string>Searching for prices</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8A1D1F6F-E1B5-4BCA-8EA1-970F849E5E94</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>8A1D1F6F-E1B5-4BCA-8EA1-970F849E5E94</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>sydlawrence.com</string>
+</dict>
+</plist>
